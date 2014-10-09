@@ -10,6 +10,7 @@ public class GradeBookTest
         GradeBook myGradeBook = new GradeBook( "CS101 Intro to JProg" );
 
         myGradeBook.displayMessage(); // display welcome message
-        myGradeBook.determineClassAverage(); // find average of 10 grades
+        myGradeBook.inputGrades(); // read grades from user
+        myGradeBook.displayGradeReport(); // display report based on grades
     } // end main
 } // end class GradeBookTest
