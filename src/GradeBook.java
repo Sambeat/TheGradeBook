@@ -3,7 +3,7 @@ import java.util.Scanner;
 /**
  * Created by M on 2014-10-09.
  */
-//more comments!
+//more comments! EVEN MORE
 public class GradeBook {
     private String courseName; //Name of course this GradeBook represents
 
@@ -47,7 +47,6 @@ public class GradeBook {
         // processing phase
         System.out.print( "Enter grade or -1 to quit: " );
         grade = input.nextInt();
-
         // loop until sentinel value is read
         while ( grade != -1)
         {
